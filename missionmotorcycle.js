@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Mission Motorcycle Booking Helper
 // @namespace    https://github.com/jsnfwlr/missionmotorcycle
-// @version      0.1
-// @description  Help motorcyclists get a booking at one of the WA DOT Centers
+// @version      0.1.1
+// @description  Help motorcyclists get a booking at one of the WA DOT Centers.
 // @author       jsnfwlr <jason@jsnfwlr.com>
 // @match        https://online.transport.wa.gov.au/pdabooking/manage/wicket/page*
 // @grant        none
