@@ -8,5 +8,6 @@ a userscript to help Perth Motorcyclists book a PDA at the DoT
 
 - Install [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/).
-
 - [Click here](https://greasyfork.org/en/scripts/423038-mission-motorcycle-booking-helper) then click **Install this script**, then click **Install**:
+
+If you find this useful and want to tip me for the work, send me some Bitcoin **bc1qy0p2xecv9wvcfw6udl83mvz9f65gm8ns2hh5dm**
