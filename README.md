@@ -10,6 +10,8 @@ a userscript to hlp Perth Motorcyclists book a PDA at the DoT
 or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/).
 - [Click here](https://greasyfork.org/en/scripts/423038-mission-motorcycle-booking-helper) then click [**Install this script**](https://greasyfork.org/scripts/423038-mission-motorcycle-booking-helper/code/Mission%20Motorcycle%20Booking%20Helper.user.js), then click **Install**:
 
+## Usage
+
 Once you've successfully logged in to the PDA booking site, this userscript will add the dialog shown in the screenshot, allowing you to automatically check for available time slots that meet your preferred dates and times.
 
 Once you click **Go** the script will continue to check each of the selected centres every 5 minutes until a time slot is found or you click **Stop**.
