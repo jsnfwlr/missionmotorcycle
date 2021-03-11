@@ -7,6 +7,18 @@
 // @match        https://online.transport.wa.gov.au/pdabooking/manage/wicket/page*
 // @grant        none
 // ==/UserScript==
+//
+// Once you've successfully logged in to the PDA booking site, this userscript will
+// add the dialog shown in the screenshot, allowing you to automatically check for
+// available time slots that meet your preferred dates and times. Once you click Go
+// the script will continue to check each of the selected centres every 5 minutes
+// until a time slot is found or you click Stop.
+// Once a time slot is found, it will be selected and confirmed for you. If multiple
+// time slots are found, the first one that meets your criteria will be booked for
+// you.
+// Given the poor availability of time slots, it is suggested you make a booking
+// for any time slot you can get then use this userscript to try and get a better
+// booking.
 
 (function () {
 	'use strict';
