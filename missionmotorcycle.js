@@ -23,22 +23,22 @@
 		let center = centers[0];
 		for (let index = 0; index < centers.length; index++) {
 			center = centers[index];
-            // console.log("Setting center to " + center);
+			// console.log("Setting center to " + center);
 			$(missionSiteCode).val(center);
 			$(missionSiteCode).change();
 			await missionSleep(2000);
 			$(missionSearchBtn).click();
-            // console.log("Searching for available time slots at " + center);
+			// console.log("Searching for available time slots at " + center);
 			await missionSleep(2000);
 			if ($(missionSearchResult).length > 0) {
-                // console.log("Found some time slots at " + center);
+				// console.log("Found some time slots at " + center);
 				let regex = /(\d\d)\/(\d\d)\/(\d\d\d\d)\s+at\s+(\d+):(\d+)\s+(\w+)/g
 				$(missionSearchResult).each((i, e) => {
 					let matches = [];
 					while ((matches = regex.exec($(e).next().text())) !== null) {
 						let testDate = new Date(matches[2] + "/" + matches[1] + "/" + matches[3] + " " + matches[4] + ":" + matches[5] + ":00 " + matches[6])
 						if (Date.parse((testDate).toString()) >= Date.parse((afterDate).toString()) && (testDate.getHours() >= afterDate.getHours() && testDate.getMinutes() >= afterDate.getMinutes())) {
-                            window.clearInterval(missionTimer)
+							window.clearInterval(missionTimer)
 							$(e).click()
 							$(missionConfirmBtn).click()
 						}
